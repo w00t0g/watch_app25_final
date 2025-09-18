@@ -1,0 +1,50 @@
+name: watch_app25
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+  firebase_core: ^4.1.0
+  firebase_auth: ^6.0.2
+  cloud_firestore: ^6.0.1
+  image_picker: ^1.2.0
+  firebase_storage: ^13.0.1
+  intl: ^0.20.2
+  file_picker: ^10.3.3
+  url_launcher: ^6.3.2
+  fl_chart: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+# Wichtig: Dieser Block steht auf Top-Level (nicht unter "flutter:" oder "dev_dependencies:")
+flutter_icons:
+  android: "ic_launcher"
+  ios: true
+  image_path: assets/app_icon.png
+  remove_alpha_ios: true
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # assets:, fonts:, … (deine bisherigen Kommentare)
